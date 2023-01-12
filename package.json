@@ -1,0 +1,42 @@
+{
+  "name": "reoreo-zyt",
+  "version": "0.0.1-alpha",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "jsnext:main": "lib/index.esm.js",
+  "browser": "lib/index.umd.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reoreo-zyt/G-Map.git"
+  },
+  "author": "reoreo <768119359@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "coveralls": "jest --coverage"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^10.0.1",
+    "@types/jest": "^29.2.5",
+    "jest": "^29.3.1",
+    "rollup": "^3.9.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "ts-jest": "^29.0.4",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4"
+  },
+  "description": "a game map utils for three dimensional",
+  "bugs": {
+    "url": "https://github.com/reoreo-zyt/G-Map/issues"
+  },
+  "homepage": "https://github.com/reoreo-zyt/G-Map#readme",
+  "dependencies": {}
+}
